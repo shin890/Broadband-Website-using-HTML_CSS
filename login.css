@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    ;
+
+}
+
+body {
+    background-image: url("core/internet-1170x658.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.top {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    min-height: 30px;
+    font-weight: 800;
+    font-size: 1.6em;
+    background-color: white;
+}
+
+.top .icon {
+    margin-top: 2px;
+    margin-right: 8px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 95%;
+    overflow: hidden;
+}
+
+.container .box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+    padding: 0;
+    width: 500px;
+    height: 320px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    border: 2px solid lightgreen;
+    justify-content: center;
+}
+
+.container .box .inside1 h1 {
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.container .box .inside1 .line {
+    position: relative;
+    margin-top: -10px;
+    width: 400px;
+    height: 5px;
+    background-color: greenyellow;
+    border-radius: 2px;
+}
+
+.container .box .inside1 .input {
+    font-weight: 700;
+}
+
+.container .box .inside1 input {
+    position: relative;
+    width: 100%;
+}
+
+.container .box .inside1 input {
+    height: 25px;
+    border: 0px;
+    border-bottom: 3px solid green;
+    background-color: white;
+}
+
+.container .box .inside1 input[type=submit] {
+    color: white;
+    font-size: 1.5em;
+    border: 0;
+    height: 40px;
+    position: relative;
+    background-color: lightgreen;
+}
